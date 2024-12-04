@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Signup</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                display: flex;
+                height: 100vh;
+
+            }
+            .sidebar1{
+                width: 50%;
+                height: 100vh;
+                background-color: white;
+                justify-content: center;
+                align-items:center ;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+               
+            }
+            .sidebar2{
+                justify-content: center;
+                align-items:center ;
+                height: 100vh;
+                flex-direction: column;
+                display: flex;
+                background-image: linear-gradient(-200deg,rgb(6, 168, 87),rgb(94, 184, 109),rgb(161, 161, 161));
+                height:100vh;
+                width: 50%;  
+            }
+           .sign{
+            font-size: 100px;
+           }
+           .symbols{
+            display: flex;
+            flex-direction:row;
+           }
+           .email{
+            height: 50px;
+            width:300px;
+            border-radius: 10px;
+            font-size: 30px;
+           }
+           .password{
+            height: 50px;
+            width:300px;
+            border-radius: 10px;
+            font-size: 30px;
+           }
+           .signin{
+            height: 50px;
+            width:300px;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+           }
+           .or{
+           font-size: 30px;; 
+           }
+           .symbols{
+            font-size: 30px;
+           }
+           .welcome{
+            font-size: 70px;
+           }
+           .para{
+            font-size: 30px;
+           }
+           .account{
+            background-image: linear-gradient(-200deg,rgb(6, 168, 87),rgb(94, 184, 109),rgb(161, 161, 161));
+            height: 50px;
+            width:300px;
+            font-size: 20px;
+            border-radius: 10px;
+            opacity: 0.5;
+
+           }
+
+           @media(max-width:600px){
+            .sidebar2{
+                display: none;
+            }
+            .sidebar1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+           }
+
+        </style>
+    </head>
+    <body>
+        <div class="sidebar1">
+            <h1 class="sign">Signin</h1>
+            <input class="email" placeholder="ByteWebster"type="text">
+            <br>
+            <input class="password" placeholder="********"type="password">
+            <br>
+            <button class="signin">Signin</button>
+            <p class="or">or signin With</p>
+            <div class="symbols">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="sidebar2">
+            <h1 class="Welcome">Welcome back!</h1>
+            <p class="para">Welcome back! WE are so happy to have you<br>here. It's great to see you again.we hope you<br>had a safe and enjoyable time away.</p>
+            <button class ="account">
+                No account yet?Signup.
+            </button>
+
+        </div>
+    
+    </body>
+</html>
